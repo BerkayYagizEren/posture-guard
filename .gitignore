@@ -1,0 +1,20 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# MediaPipe model file (auto-downloaded on start if missing)
+*.task
+
+# User personal calibration data
+calibration.json
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
